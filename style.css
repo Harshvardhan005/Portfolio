@@ -650,6 +650,7 @@ body.ch .cur-ring { width: 52px; height: 52px; border-color: rgba(var(--gr), .65
 .work-grid .card:nth-child(2) { transition-delay: .08s; }
 .work-grid .card:nth-child(3) { transition-delay: .14s; }
 .work-grid .card:nth-child(4) { transition-delay: .20s; }
+.work-grid .card:nth-child(5) { transition-delay: .26s; }
 
 /* ============================================================
    RESPONSIVE
