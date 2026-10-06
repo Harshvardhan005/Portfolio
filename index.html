@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harshvardhan K — Video Editor</title>
+  <meta name="description" content="Harshvardhan K is a Video Editor based in India. Creating engaging reels, podcasts, posters and social media content.">
+  <meta property="og:title" content="Harshvardhan K — Video Editor">
+  <meta property="og:description" content="Turning raw footage into engaging, polished content. Edit. Create. Deliver.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23121212' rx='20'/><text y='73' x='50' text-anchor='middle' font-family='system-ui' font-weight='900' font-size='48' fill='%23b6771d'>HV</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Harshvardhan K","jobTitle":"Video Editor","email":"harshvardhan20050@gmail.com","sameAs":["https://www.instagram.com/harshvardhan_04/","https://www.linkedin.com/in/harshvardhan-k-a909692b3/"]}</script>
+</head>
+<body>
+
+  <!-- ── Preloader ──────────────────────────────────────── -->
+  <div class="preloader" id="preloader" role="status" aria-label="Loading portfolio">
+    <div class="pl-wrap">
+      <span class="pl-logo">HV</span>
+      <div class="pl-bar"><div class="pl-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- ── Custom cursor (desktop only) ──────────────────── -->
+  <div class="cur-dot"  id="cur-dot"  aria-hidden="true"></div>
+  <div class="cur-ring" id="cur-ring" aria-hidden="true"></div>
+
+  <!-- ── Navigation ────────────────────────────────────── -->
+  <nav class="nav" id="nav" role="navigation" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a href="#home" class="nav-brand" aria-label="Back to top">HV</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about"   class="nav-link">About</a></li>
+        <li><a href="#work"    class="nav-link">Work</a></li>
+        <li><a href="#skills"  class="nav-link">Skills</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="burger" id="burger"
+        aria-label="Open navigation menu"
+        aria-expanded="false"
+        aria-controls="mob-nav">
+        <span class="b-bar"></span>
+        <span class="b-bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ── Mobile overlay nav ────────────────────────────── -->
+  <div class="mob-nav" id="mob-nav" role="dialog" aria-hidden="true" aria-label="Mobile navigation">
+    <ul class="mob-links" role="list">
+      <li><a href="#about"   class="mob-link">About</a></li>
+      <li><a href="#work"    class="mob-link">Work</a></li>
+      <li><a href="#skills"  class="mob-link">Skills</a></li>
+      <li><a href="#contact" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <main id="main-content">
+
+    <!-- ════════════════════════════════════════════
+         §1  HERO
+    ════════════════════════════════════════════ -->
+    <section class="hero" id="home" aria-label="Introduction">
+      <div class="hero-glow" aria-hidden="true"></div>
+
+      <div class="container hero-body">
+        <p class="hero-tag ai" style="--i:0">📍 Based in India</p>
+
+        <h1 class="hero-name ai" style="--i:1">Harshvardhan</h1>
+
+        <p class="hero-role ai" style="--i:2" aria-live="polite">
+          <span id="role-text" class="role-typed" aria-label="Role description"></span><span class="role-cur" aria-hidden="true">|</span>
+        </p>
+
+        <p class="hero-desc ai" style="--i:3">
+          Turning raw footage into engaging, polished content.<br>
+          <strong>Edit. Create. Deliver.&nbsp;🎬</strong>
+        </p>
+
+        <div class="hero-cta ai" style="--i:4">
+          <a href="#work"    class="btn btn-fill">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Let's Talk →</a>
+        </div>
+      </div>
+
+      <div class="scroll-hint" aria-hidden="true">
+        <div class="sh-line"></div>
+        <span>Scroll</span>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         §2  ABOUT
+    ════════════════════════════════════════════ -->
+    <section class="about sect" id="about" aria-label="About Harshvardhan">
+      <div class="container">
+        <div class="about-grid">
+
+          <!-- Photo column -->
+          <div class="photo-col reveal" data-dir="left">
+            <div class="photo-frame" id="photo-frame">
+              <img
+                src="assets/photo.jpg"
+                alt="Harshvardhan K, Video Editor, standing beside a scenic lake with mountains in the background"
+                class="photo-img"
+                id="profile-img"
+                loading="eager"
+              >
+              <div class="photo-sheen" aria-hidden="true"></div>
+            </div>
+            <div class="avail-badge" role="status" aria-label="Currently available for work">
+              <span class="avail-dot" aria-hidden="true"></span>
+              Available for work
+            </div>
+          </div>
+
+          <!-- Text column -->
+          <div class="text-col reveal" data-dir="right">
+            <span class="eyebrow">About Me</span>
+            <h2 class="about-h">Hey, I'm Harshvardhan&nbsp;👋</h2>
+            <p class="body-p">
+              I'm a <strong>Video Editor</strong> who turns raw footage into
+              engaging, polished content. From podcasts and short-form reels to event coverage
+              and social media content, I focus on clean cuts, smooth pacing, creative
+              transitions, captions, and visuals that keep the audience hooked.
+            </p>
+            <p class="body-p">
+              I enjoy working on the details that make an edit feel effortless —
+              from the first cut to the final frame.
+            </p>
+
+            <!-- Stats -->
+            <div class="stats-row" role="list" aria-label="Career highlights">
+              <div class="stat" role="listitem">
+                <div class="stat-val"><span class="stat-n" data-target="4">0</span><span>+</span></div>
+                <span class="stat-lbl">Active Pages</span>
+              </div>
+              <div class="stat-sep" aria-hidden="true"></div>
+              <div class="stat" role="listitem">
+                <div class="stat-val"><span class="stat-n" data-target="3">0</span><span>+</span></div>
+                <span class="stat-lbl">Years Active</span>
+              </div>
+              <div class="stat-sep" aria-hidden="true"></div>
+              <div class="stat" role="listitem">
+                <div class="stat-val"><span class="stat-n" data-target="100">0</span><span>+</span></div>
+                <span class="stat-lbl">Videos Created</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         §3  WORK
+    ════════════════════════════════════════════ -->
+    <section class="work sect alt" id="work" aria-label="Selected work and projects">
+      <div class="container">
+        <header class="sect-hd reveal">
+          <span class="eyebrow">Selected Work</span>
+          <h2 class="sect-h">Projects I've <em>crafted</em></h2>
+        </header>
+
+        <div class="work-grid" role="list">
+
+          <!-- Card: LetzConnect -->
+          <a href="https://www.instagram.com/letzconnect.xyz?stkn=MXdqbXIzaHozM21zcQ=="
+             target="_blank" rel="noopener noreferrer"
+             class="card reveal" role="listitem"
+             aria-label="LetzConnect — Community-first reels and campaign visuals. Opens on Instagram in a new tab.">
+            <div class="card-thumb" aria-hidden="true">
+              <div class="card-grad" style="--h:200"></div>
+              <div class="card-badge">Community &amp; Reels</div>
+              <div class="card-ig"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor" stroke="none"/></svg></div>
+              <div class="card-hover-lbl">View on Instagram →</div>
+            </div>
+            <div class="card-info">
+              <div class="card-row">
+                <h3 class="card-h">LetzConnect</h3>
+                <span class="card-yr">2026 · Current</span>
+              </div>
+              <p class="card-p">Community-first reels and campaign visuals built to bring people together online.</p>
+              <div class="tags" aria-label="Project tags"><span class="tag">Reels</span><span class="tag">Social</span><span class="tag">Editing</span></div>
+            </div>
+          </a>
+
+          <!-- Card: Thrive Thrust Travel -->
+          <a href="https://www.instagram.com/thrive_thrust_travel?stkn=ejFicnI3YTUxZ204"
+             target="_blank" rel="noopener noreferrer"
+             class="card reveal" role="listitem"
+             aria-label="Thrive Thrust Travel — Travel reels with fast cuts and dynamic pacing. Opens on Instagram in a new tab.">
+            <div class="card-thumb" aria-hidden="true">
+              <div class="card-grad" style="--h:28"></div>
+              <div class="card-badge">Travel &amp; Cinematics</div>
+              <div class="card-ig"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor" stroke="none"/></svg></div>
+              <div class="card-hover-lbl">View on Instagram →</div>
+            </div>
+            <div class="card-info">
+              <div class="card-row">
+                <h3 class="card-h">Thrive Thrust Travel</h3>
+                <span class="card-yr">2026</span>
+              </div>
+              <p class="card-p">Travel reels with fast cuts, dynamic pacing and destination highlights.</p>
+              <div class="tags" aria-label="Project tags"><span class="tag">Travel</span><span class="tag">Reels</span><span class="tag">Colour</span></div>
+            </div>
+          </a>
+
+          <!-- Card: Shutter Vardhan -->
+          <a href="https://www.instagram.com/shutter_vardhan?stkn=MWczZnRpMmRmOGdlMA=="
+             target="_blank" rel="noopener noreferrer"
+             class="card reveal" role="listitem"
+             aria-label="Shutter Vardhan — Photo-led content and posters with a cinematic eye. Opens on Instagram in a new tab.">
+            <div class="card-thumb" aria-hidden="true">
+              <div class="card-grad" style="--h:280"></div>
+              <div class="card-badge">Photography &amp; Posters</div>
+              <div class="card-ig"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor" stroke="none"/></svg></div>
+              <div class="card-hover-lbl">View on Instagram →</div>
+            </div>
+            <div class="card-info">
+              <div class="card-row">
+                <h3 class="card-h">Shutter Vardhan</h3>
+                <span class="card-yr">Current</span>
+              </div>
+              <p class="card-p">Photo-led content and posters with a clean, cinematic eye.</p>
+              <div class="tags" aria-label="Project tags"><span class="tag">Photography</span><span class="tag">Posters</span></div>
+            </div>
+          </a>
+
+          <!-- Card: TechAmigos -->
+          <a href="https://www.instagram.com/techamigosclub.dsw?stkn=MWg0eWduNDJqMzVndg=="
+             target="_blank" rel="noopener noreferrer"
+             class="card reveal" role="listitem"
+             aria-label="TechAmigos Club DSW — Event reels and podcast episodes for a student tech club. Opens on Instagram in a new tab.">
+            <div class="card-thumb" aria-hidden="true">
+              <div class="card-grad" style="--h:130"></div>
+              <div class="card-badge">Podcasts &amp; Tech Events</div>
+              <div class="card-ig"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor" stroke="none"/></svg></div>
+              <div class="card-hover-lbl">View on Instagram →</div>
+            </div>
+            <div class="card-info">
+              <div class="card-row">
+                <h3 class="card-h">TechAmigos Club DSW</h3>
+                <span class="card-yr">2025</span>
+              </div>
+              <p class="card-p">Event reels, announcement posters and podcast episodes for a student tech club.</p>
+              <div class="tags" aria-label="Project tags"><span class="tag">Podcast</span><span class="tag">Posters</span><span class="tag">Events</span></div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         §4  SKILLS & EXPERIENCE
+    ════════════════════════════════════════════ -->
+    <section class="skills-sect sect" id="skills" aria-label="Skills and work experience">
+      <div class="container">
+        <div class="sk-grid">
+
+          <!-- Experience -->
+          <div class="exp-col reveal" data-dir="left">
+            <span class="eyebrow">Experience</span>
+            <div class="exp-card">
+              <div class="exp-top">
+                <div>
+                  <h3 class="exp-title">Freelance Video Editor</h3>
+                  <p class="exp-co">Independent</p>
+                </div>
+                <time class="exp-date" datetime="2023">2023 — Present</time>
+              </div>
+              <ul class="exp-list" aria-label="Responsibilities">
+                <li>Produce reels, posters and podcast episodes for active client pages.</li>
+                <li>Manage video workflows end-to-end: cutting, pacing, color and final export.</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Skills -->
+          <div class="sk-col reveal" data-dir="right">
+            <span class="eyebrow">Skills</span>
+            <div class="sk-group">
+              <h4 class="sk-lbl">Content</h4>
+              <div class="sk-chips" role="list">
+                <span class="sk-chip" role="listitem">Reels</span>
+                <span class="sk-chip" role="listitem">Posters</span>
+                <span class="sk-chip" role="listitem">Podcasts</span>
+                <span class="sk-chip" role="listitem">Short-form Edits</span>
+              </div>
+            </div>
+            <div class="sk-group">
+              <h4 class="sk-lbl">Craft</h4>
+              <div class="sk-chips" role="list">
+                <span class="sk-chip" role="listitem">Video Editing</span>
+                <span class="sk-chip" role="listitem">Colour Grading</span>
+                <span class="sk-chip" role="listitem">Pacing &amp; Transitions</span>
+                <span class="sk-chip" role="listitem">Graphic Design</span>
+              </div>
+            </div>
+            <div class="sk-group">
+              <h4 class="sk-lbl">Tools</h4>
+              <div class="sk-chips" role="list">
+                <span class="sk-chip" role="listitem">Premiere Pro</span>
+                <span class="sk-chip" role="listitem">DaVinci Resolve</span>
+                <span class="sk-chip" role="listitem">Lightroom</span>
+                <span class="sk-chip" role="listitem">Canva</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ════════════════════════════════════════════
+         §5  CONTACT
+    ════════════════════════════════════════════ -->
+    <section class="contact-sect sect alt" id="contact" aria-label="Contact Harshvardhan">
+      <div class="contact-glow" aria-hidden="true"></div>
+      <div class="container">
+        <div class="contact-inner reveal">
+          <span class="eyebrow">Get In Touch</span>
+          <h2 class="contact-h">Let's create something<br><em>remarkable</em> together</h2>
+          <p class="contact-sub">Open to freelance projects, collaborations &amp; creative partnerships.</p>
+          <a href="mailto:harshvardhan20050@gmail.com"
+             class="contact-email"
+             aria-label="Email Harshvardhan at harshvardhan20050@gmail.com">
+            harshvardhan20050@gmail.com
+          </a>
+          <div class="socials" role="list" aria-label="Social media links">
+            <a href="https://www.instagram.com/harshvardhan_04/"
+               target="_blank" rel="noopener noreferrer"
+               class="soc-btn" role="listitem"
+               aria-label="Follow Harshvardhan on Instagram (opens in new tab)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5.5"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.5" cy="6.5" r="1.3" fill="currentColor" stroke="none"/></svg>
+              Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/harshvardhan-k-a909692b3/"
+               target="_blank" rel="noopener noreferrer"
+               class="soc-btn" role="listitem"
+               aria-label="Connect with Harshvardhan on LinkedIn (opens in new tab)">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7H10V9h4v1.5" stroke-linecap="round" stroke-linejoin="round"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+              LinkedIn
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────── -->
+  <footer class="footer" role="contentinfo">
+    <div class="container footer-row">
+      <p>© 2025 Harshvardhan K. All rights reserved.</p>
+      <a href="#home" class="top-link" aria-label="Back to top of page">↑ Top</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
